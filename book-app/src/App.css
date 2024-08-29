@@ -1,0 +1,48 @@
+.krye {
+  background-color: #333; 
+  padding: 10px 20px; 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.krye a {
+  color: white; 
+  text-decoration: none; 
+  padding: 10px 15px; 
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  border-radius: 5px;
+}
+
+.krye a:hover {
+  background-color: #555; 
+  color: #fff; 
+}
+body {
+  background-image: url('/wp2036914.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0; 
+  padding: 0;
+}
+.edit{
+  background-color: rgb(208, 131, 55);
+  color: aliceblue;
+  margin: 5px;
+  
+}
+.delete{
+  color: aliceblue;
+  background-color: rgb(222, 66, 66);
+}
+.add{
+  background-color: #333;
+  color: #fff;
+}
+.update{
+  background-color: #333;
+  color: #fff;
+}
